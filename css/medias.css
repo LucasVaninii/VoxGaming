@@ -1,0 +1,146 @@
+@media(min-width: 2450px) {
+    .cards {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+@media (min-width: 2200px) {
+    .content-header {
+        margin-left: 15%;
+        flex: 35%;
+    }
+
+    .img-header {
+        margin-right: 15%;
+        flex: 35%;
+    }
+
+    #cards-titulo {
+        margin-left: 43%;
+    }
+
+    .cards {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .rodape p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (min-width:1500px) {
+    #cards-titulo {
+        margin-left: 40%;
+    }
+
+    .cards {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .rodape p {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media(max-width:1055px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu {
+        font-size: 17px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .content-header {
+        margin-top: 50px;
+        margin-right: 5%;
+    }
+
+    .consoles img {
+        width: 170px;
+    }
+
+    #cards-titulo {
+        font-size: 27px;
+        width: 280px;
+    }
+}
+
+@media(max-width: 900px) {
+    .logo {
+        flex: 20%;
+        font-size: 19px;
+    }
+
+    .menu {
+        flex: 70%;
+        font-size: 15px;
+    }
+
+    .menu a {
+        margin: 40px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:425px) {
+    .logo {
+        font-size: 17px;
+    }
+
+    .menu {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .menu a {
+        margin: 5px
+    }
+
+    .content-header h1 {
+        width: 100%;
+        margin-left: 45px;
+    }
+
+    .content-header p {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .img-header {
+        margin-top: -100px;
+        margin-left: 130px;
+    }
+
+    #cards-titulo {
+        margin: 130px;
+        margin-top: 0px;
+    }
+
+    .card {
+        margin-top: -80px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+
+    .rodape {
+        display: none;
+    }
+}
